@@ -1,0 +1,42 @@
+header{
+    background-image: url(/images/top-banner.png);
+    background-repeat: no-repeat;
+}
+main{
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+footer{
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+#header-text{
+    color: orange;
+}
+a{
+    text-decoration: none;
+    background: linear-gradient(45deg,#fb6655,#f78b6a);
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+}
+#left-side{
+    background-color: white;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+    box-shadow: 2px 2px 15px 2px grey;
+    padding: 15px;
+    /* height: 280px; */
+}
+#right-side{
+    background-color: white;
+    border-image: linear-gradient(180deg,#fb6655,#f78b6a);
+    border-image-slice: 1;
+    border-left: 7px solid;
+    padding: 15px;
+    box-shadow: 2px 2px 15px 2px grey;
+    /* height: 280px; */
+}   
