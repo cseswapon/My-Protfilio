@@ -1,4 +1,7 @@
-header{
+body{
+    overflow-x: hidden;
+}
+eader{
     background-image: url(/images/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -40,3 +43,14 @@ a{
     box-shadow: 2px 2px 15px 2px grey;
     /* height: 280px; */
 }   
+/* img{
+    animation: img 3s ease-in-out 0s infinite alternate forwards;
+}
+@keyframes img{
+    0%{
+        transform: rotate(360deg) scale(1.1)
+    }
+    100%{
+        transform: rotate(0deg) scale(1);
+    }
+} */
